@@ -1,0 +1,57 @@
+body {
+    background-color: #0d2623;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 600px;
+}
+.num {
+    color: white;
+    font-size: 170px;
+    font-weight: bold;
+}
+.colon {
+    margin: 0px 5px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.butons {
+    /*border: 2px solid green;*/
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.togg,
+.reset {
+    width: 30%;
+    border: none;
+    background-color: #215c55;
+    border-radius: 10px;
+    margin-right: 8px;
+    color: white;
+    font-size: 30px;
+}
+
+.togg:active {
+    background-color: #3ce6b8;
+}
+.reset:active {
+    background-color: #3ce6b8;
+}
+.hor,
+.min,
+.sec {
+   background-color: #1d3835; 
+   padding: 15px 7px 15px 7px;
+   border-radius: 18px;
+}
+.mil {
+    background-color: #1d3835;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 35px;
+    color: white;
+}
